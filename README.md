@@ -1,6 +1,15 @@
 # K-Link-Chat-App
 Assignment project
-The ip address to the website is provided in the email. It will not be posted here.
+The website is at [ChatApp](http://htetsell.com)
+
+### What works
+- Login, Register
+- Chat room - create, list | provided accounts: [{email:a@a.com,pwd:a},{email:b@b.com,pwd:b},{email:c@c.com,pwd:c}]
+- Chat configuration - create, list
+- Chat message - choose Chat Configuration, send
+
+### What doesn't
+- The text input in chat box does not clear after submit because the state was not linked to clear
 
 ## Backend
 Django App provides Http REST endpoints for data polling and Websocket endpoints for chat functionality. Written 
